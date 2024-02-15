@@ -65,5 +65,13 @@ public class ProyectoVers {
     public void setB(double b) {
 		this.b=b;
 	}
+	@Override
+	public String toString() {
+		return "ProyectoVers answer = " + answer + ", a = " + a + ", b = " + b + ", suma() = " + suma() + ", resta() = "
+				+ resta() + ", producto() = " + producto() + ", divEntera() = " + divEntera() + ", resto() = " + resto()
+				+ ", divReal() = " + divReal() + ", getAnswer() = " + getAnswer() + "";
+	}
+    
+    
 	
 }
